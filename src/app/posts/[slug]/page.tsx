@@ -18,11 +18,7 @@ export const generateMetadata = async ({
   };
 };
 
-export default function PostPage({
-  params,
-}: {
-  params: { slug: string };
-}) {
+const PostPage = ({ params }: { params: { slug: string } }) => {
   const post = getPostBySlug(params.slug);
   if (!post) notFound();
 
@@ -47,4 +43,6 @@ export default function PostPage({
       <Footer />
     </div>
   );
-}
+};
+
+export default PostPage;
