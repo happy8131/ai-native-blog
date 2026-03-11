@@ -1,9 +1,14 @@
 import Image from "next/image";
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import SubscribeButton from "@/components/SubscribeButton";
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex min-h-screen w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
+    <div className="flex min-h-screen flex-col bg-zinc-50 font-sans dark:bg-black">
+      <Header />
+      <div className="flex flex-1 items-center justify-center">
+        <main className="flex w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
         <Image
           className="dark:invert"
           src="/next.svg"
@@ -59,7 +64,12 @@ export default function Home() {
             Documentation
           </a>
         </div>
+        <div className="mt-8">
+          <SubscribeButton />
+        </div>
       </main>
+      </div>
+      <Footer />
     </div>
   );
 }
