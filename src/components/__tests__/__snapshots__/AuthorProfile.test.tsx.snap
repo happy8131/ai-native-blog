@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`AuthorProfile 스냅샷 기본 author 데이터로 렌더링한 컴포넌트가 스냅샷과 일치한다 1`] = `
+<section
+  aria-label="작가 정보"
+  class="mt-12 pt-8 border-t border-gray-200"
+>
+  <div
+    class="flex items-center gap-4"
+  >
+    <img
+      alt="김철수 프로필 사진"
+      class="rounded-full object-cover flex-shrink-0"
+      height="64"
+      src="/images/avatar.jpg"
+      width="64"
+    />
+    <div>
+      <p
+        class="text-xs font-medium text-gray-400 uppercase tracking-wide"
+      >
+        작가
+      </p>
+      <h3
+        class="text-lg font-semibold text-gray-900"
+      >
+        김철수
+      </h3>
+      <p
+        class="text-sm text-gray-600 mt-1"
+      >
+        프론트엔드 개발자이자 기술 블로거입니다.
+      </p>
+    </div>
+  </div>
+</section>
+`;
+
+exports[`AuthorProfile 스냅샷 다른 작가 데이터로 렌더링한 컴포넌트가 스냅샷과 일치한다 1`] = `
+<section
+  aria-label="작가 정보"
+  class="mt-12 pt-8 border-t border-gray-200"
+>
+  <div
+    class="flex items-center gap-4"
+  >
+    <img
+      alt="이수진 프로필 사진"
+      class="rounded-full object-cover flex-shrink-0"
+      height="64"
+      src="/images/suzy.jpg"
+      width="64"
+    />
+    <div>
+      <p
+        class="text-xs font-medium text-gray-400 uppercase tracking-wide"
+      >
+        작가
+      </p>
+      <h3
+        class="text-lg font-semibold text-gray-900"
+      >
+        이수진
+      </h3>
+      <p
+        class="text-sm text-gray-600 mt-1"
+      >
+        UX 디자이너 출신 풀스택 개발자입니다.
+      </p>
+    </div>
+  </div>
+</section>
+`;
