@@ -1,0 +1,52 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - heading "My Awesome Site" [level=1] [ref=e7]
+        - button "가입하기" [ref=e8]
+    - main [ref=e9]:
+      - generic [ref=e10]:
+        - heading "블로그" [level=1] [ref=e11]
+        - paragraph [ref=e12]: 다양한 기술 글과 경험담을 공유하는 블로그입니다.
+      - generic [ref=e13]:
+        - article [ref=e14]:
+          - generic [ref=e15]:
+            - paragraph [ref=e16]: 2026-03-11
+            - link "첫 번째 블로그 게시글" [ref=e17] [cursor=pointer]:
+              - /url: /posts/first-post
+              - heading "첫 번째 블로그 게시글" [level=2] [ref=e18]
+          - paragraph [ref=e19]: 이것은 첫 번째 블로그 게시글의 본문입니다. 여기에 블로그 포스트의 내용을 작성할 수 있습니다. Next.js와 TypeScript를 사용하여 멋진 블로그를 만들어보세요!
+          - generic [ref=e20]:
+            - generic [ref=e21]:
+              - img "Jane Doe 프로필 사진" [ref=e22]
+              - generic [ref=e23]:
+                - paragraph [ref=e24]: Jane Doe
+                - paragraph [ref=e25]: Next.js와 TypeScript를 좋아하는 프론트엔드 개발자입니다.
+            - link "더 읽기" [ref=e26] [cursor=pointer]:
+              - /url: /posts/first-post
+        - article [ref=e27]:
+          - generic [ref=e28]:
+            - paragraph [ref=e29]: 2026-03-10
+            - link "Next.js App Router 시작하기" [ref=e30] [cursor=pointer]:
+              - /url: /posts/nextjs-app-router
+              - heading "Next.js App Router 시작하기" [level=2] [ref=e31]
+          - paragraph [ref=e32]: Next.js 13부터 도입된 App Router는 파일 기반 라우팅 시스템으로, 더욱 직관적이고 강력한 기능을 제공합니다. 이 글에서는 App Router의 기본 개념과 사용법을 알아봅니다.
+          - generic [ref=e33]:
+            - generic [ref=e34]:
+              - img "Jane Doe 프로필 사진" [ref=e35]
+              - generic [ref=e36]:
+                - paragraph [ref=e37]: Jane Doe
+                - paragraph [ref=e38]: Next.js와 TypeScript를 좋아하는 프론트엔드 개발자입니다.
+            - link "더 읽기" [ref=e39] [cursor=pointer]:
+              - /url: /posts/nextjs-app-router
+    - contentinfo [ref=e40]:
+      - generic [ref=e42]:
+        - button "문의하기" [ref=e43]
+        - paragraph [ref=e45]: © 2026 My Awesome Site. 모든 권리 보유.
+  - button "Open Next.js Dev Tools" [ref=e51] [cursor=pointer]:
+    - img [ref=e52]
+  - alert [ref=e55]
+```
