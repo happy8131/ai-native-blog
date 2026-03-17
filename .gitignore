@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 구독자 데이터
+data/subscribers.json
+
+# 환경 변수
+.env.local

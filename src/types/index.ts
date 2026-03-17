@@ -12,3 +12,6 @@ export interface Post {
   publishedAt: string;
   author: Author;
 }
+
+export type { Subscriber, SubscriberStatus } from './subscriber';
+export type { SubscribeRequest, SubscribeResponse } from './subscriber';

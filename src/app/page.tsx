@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import SubscribeButton from "@/components/SubscribeButton";
+import SubscribeForm from "@/components/SubscribeForm";
 
 export default function Home() {
   return (
@@ -64,8 +64,8 @@ export default function Home() {
             Documentation
           </a>
         </div>
-        <div className="mt-8">
-          <SubscribeButton />
+        <div className="mt-8 w-full max-w-md">
+          <SubscribeForm />
         </div>
       </main>
       </div>
