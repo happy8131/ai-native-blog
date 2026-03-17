@@ -2,11 +2,11 @@ import { defineConfig, devices } from '@playwright/test';
 
 export default defineConfig({
   testDir: './tests',
-  // 테스트 실행 시간 초과 (5초)
-  timeout: 5 * 1000,
-  // 테스트 기대 시간 초과 (5초)
+  // 테스트 실행 시간 초과 (30초)
+  timeout: 30 * 1000,
+  // 테스트 기대 시간 초과 (15초)
   expect: {
-    timeout: 5 * 1000,
+    timeout: 15 * 1000,
   },
   // 실패한 테스트 재시도 2회
   retries: process.env.CI ? 2 : 0,

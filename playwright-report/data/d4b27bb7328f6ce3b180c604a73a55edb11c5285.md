@@ -1,0 +1,47 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e5]:
+        - generic [ref=e6]:
+          - link "My Awesome Site" [ref=e7]:
+            - /url: /
+            - heading "My Awesome Site" [level=1] [ref=e8] [cursor=pointer]
+          - navigation [ref=e9]:
+            - link "블로그" [ref=e10]:
+              - /url: /blog
+        - button "가입하기" [ref=e11]
+    - main [ref=e13]:
+      - img "Next.js logo" [ref=e14]
+      - generic [ref=e15]:
+        - heading "To get started, edit the page.tsx file." [level=1] [ref=e16]
+        - paragraph [ref=e17]:
+          - text: Looking for a starting point or more instructions? Head over to
+          - link "Templates" [ref=e18]:
+            - /url: https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+          - text: or the
+          - link "Learning" [ref=e19]:
+            - /url: https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+          - text: center.
+      - generic [ref=e20]:
+        - link "Vercel logomark Deploy Now" [ref=e21]:
+          - /url: https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+          - img "Vercel logomark" [ref=e22]
+          - text: Deploy Now
+        - link "Documentation" [ref=e23]:
+          - /url: https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - textbox "이메일 주소를 입력하세요" [ref=e27]
+          - button "구독" [ref=e28]
+        - generic [ref=e29]: 이메일 주소가 필요합니다.
+    - contentinfo [ref=e30]:
+      - generic [ref=e32]:
+        - button "문의하기" [ref=e33]
+        - paragraph [ref=e35]: © 2026 My Awesome Site. 모든 권리 보유.
+  - button "Open Next.js Dev Tools" [ref=e41] [cursor=pointer]:
+    - img [ref=e42]
+  - alert [ref=e47]
+```
